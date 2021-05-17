@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+        box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+.item2{
+    width: 50px;
+}
+
+.item2 .item2-container{
+   /* opacity: 0; */
+   /* display: none; */
+   visibility: hidden;
+}
+
+.item2:hover .item2-container{
+   /* opacity: 1; */
+   /* display: block; */
+   visibility: visible;
+   border: 1px solid gold;
+    color: red;
+    /* overflow: hidden; */
+    width: 100%;
+}
